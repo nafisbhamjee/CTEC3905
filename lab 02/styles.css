@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+nav a{
+  background-color: grey;
+  color: white;
+  padding: 0.25em 0.25em;
+  margin: 0.1em 0.1em;
+  transition: margin-right 0.2s, background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+header{
+  font-size: 2em;
+  background-color: grey;
+}
+
+section{
+
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: blue;
+}
+
+main{
+  display: flex;
+}
+
+header, main, section {
+  overflow: auto;
+}
+
+p{
+  font-size: 2em;
+}
